@@ -1,11 +1,14 @@
+import Welcome from './components/Welcome'
+
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Quiz app</h1>
+      <div className='app-container'>
+        <h1>Quiz de programação</h1>
+        <Welcome/> {/** Componente de boas vindas */}
       </div>
     </>
   )

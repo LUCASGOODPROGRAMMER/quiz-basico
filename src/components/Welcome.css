@@ -1,0 +1,43 @@
+#welcome {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, #64aaf0, #677de9);
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 60px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#welcome h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+#welcome p {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+#welcome button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#welcome button:hover {
+  background-color: #1d4ed8;
+}
+
+#welcome img {
+  margin-top: 24px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
