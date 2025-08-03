@@ -1,0 +1,43 @@
+#question {
+  width:clamp(320px, 70vw,600px);
+  margin: 40px auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(to right, #64aaf0, #677de9);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+#pergunta {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+
+#question h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+
+
+#question > button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #1d72b8;
+  color: white;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#question > button:hover {
+  background-color: #125a91;
+}
+
+
+

@@ -1,0 +1,32 @@
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  
+}
+
+.option p {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+border: 2px solid #1d72b800;
+  border-radius: 0.75rem;
+  background-color: #f9f9f9;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.option p:hover {
+  background-color: #d0eaff;
+  border: 2px solid #1d72b8;
+  color: #1d72b8;
+}
+
+.correct p{
+    background-color: #6DEA8E;
+}
+.wrong p{
+background-color: rgba(255, 126, 126, 0.545);
+
+}
