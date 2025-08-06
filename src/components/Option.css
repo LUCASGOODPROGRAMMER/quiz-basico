@@ -30,3 +30,7 @@ border: 2px solid #1d72b800;
 background-color: rgba(255, 126, 126, 0.545);
 
 }
+
+.hide {
+  display: none;
+}
