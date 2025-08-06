@@ -6,7 +6,7 @@ const data = [
         question: "Qual tag cria um parágrafo?",
         options: ["<p>", "<h1>", "<text>", "<ul>"],
         answer: "<p>",
-        tip: "É uma tag de uma letra apenas",
+        tip: "É uma tag de uma letra apenas"
       },
       {
         question: "Qual atributo adiciona um link para a tag a?",
